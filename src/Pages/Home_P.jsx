@@ -2,6 +2,6 @@
 
 export default function Home_P() {
   return (
-    <div>Home_P</div>
+    <div>koko </div>
   )
 }
