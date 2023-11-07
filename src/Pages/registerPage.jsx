@@ -33,7 +33,7 @@ export default function RegisterPage() {
                 <h1 className="text-4xl text-center mb-4  "> Register</h1>
                 <form onSubmit={registerUser} className="max-w-md mx-auto">
                     <input type="text"
-                        placeholder=" name"
+                        placeholder="your name"
                         value={name}
                         onChange={e => setName(e.target.value)} />
                     <input type="email"
